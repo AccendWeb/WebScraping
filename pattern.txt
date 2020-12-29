@@ -31,5 +31,12 @@ title = re.search(pattern, titleFormat).group(1)
 
 - define areas - 
 
+To accurately search and store results, forms and symbols must be stated such as 
+Currencys, terms(@#!*&^%) , and key words.
+
+
+
+
+
 
 
