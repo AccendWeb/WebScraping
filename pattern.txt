@@ -1,0 +1,35 @@
+ - Pattern Searching -
+
+ To create an efficient path finding algorithm we need to set rules and define properties to highlight, by understanding the 
+ common html structures we can interprete formats and code samples in seconds.
+ 
+ Data should be read from only the start of the line, formats and code samples will compare indicating
+ similiar properties which have been provided.
+
+ - code sample -
+
+The main module for defining the search is 're' which allows you to define formats and code samples around the area of information, 
+by understanding and learning basic web structures you can create efficient searching algorithms without reading full lines of code.
+
+*import re*
+
+This states the pattern which will define possible lines to read/extract
+
+pattern = "<span>(.*?)</span>\n</h1>"
+              ^
+    To format the algorithm correctly
+    we need to state the factors before 
+    and after the information, so all html 
+    structures which could occur.
+
+This searches and stores lines which have matched the pattern  
+Many structures ands formats need to made to compare
+
+title = re.search(pattern, titleFormat).group(1)
+            ^                    ^
+    pattern comparing   reads from source variable
+
+- define areas - 
+
+
+
